@@ -1,0 +1,234 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio</title>
+
+	<!-- CSS Style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+	<!-- Animate CSS CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	
+	<!-- Navbar -->
+	<nav>
+		<h1>Lihuor Slot</h1>
+		<ul class="navigation">
+			<li> <a href="#" class="nav-link">About</a> </li>
+			<li> <a href="#" class="nav-link">Skills</a> </li>
+			<li> <a href="#" class="nav-link">Projects</a> </li>
+			<li> <a href="#" class="nav-link">Contact</a> </li>
+		</ul>
+		<button class="burger-menu" id="burger-menu"><ion-icon name="menu-outline"></ion-icon></button>
+
+	</nav>
+	<!-- Hero Section -->
+	<section class="hero" id="about">
+		<img src="./assets/icons/wfh_1.svg"
+		alt="jane-doe"
+		loading="lazy"
+		class="hero-img">
+		<div class="bio animate__animated animate__shakeX">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+			Dolor reprehenderit dolor officia dolore minim aliquip irure ullamco adipisicing est culpa irure sed mollit occaecat dolore esse eiusmod dolore ut adipisicing.
+			</p>
+		</div>
+	</section>
+
+	<!-- More about -->
+
+	<section class="more-about">
+		<h2>More About Me</h2>
+		<p>Dolore esse ut non deserunt in elit ad voluptate ex mollit do commodo qui. Minim officia pariatur reprehenderit ex laboris veniam dolor anim exercitation dolor dolore dolor labore.</p>
+		<p>Lorem ipsum ex dolor in excepteur id quis consectetur amet ut do in dolor esse dolor do. Lorem ipsum quis nulla voluptate adipisicing est sunt dolore labore nulla est ut in ullamco.</p>
+		<p>Commodo culpa non velit qui consequat id sed ea qui minim proident ut est in ullamco. Commodo exercitation cillum eu est id veniam in in occaecat nostrud qui ea pariatur dolor.</p>
+	</section>
+
+	<!-- Skills section -->
+	<section class="skills" id="skills">
+		<h2 class="skill-header">My Top Skills</h2>
+
+		<div class="skills-wrapper">
+			<div class="first-set animate__animated animate__pulse">
+				<img src="./assets/icons/icons8-html-5.svg" alt="HTML"
+				loading="lazy"
+				class="icon icon-card">
+				<img src="./assets/icons/icons8-css3.svg" alt="HTML"
+				loading="lazy"
+				class="icon icon-card">
+				<img src="./assets/icons/icons8-javascript.svg" alt="HTML"
+				loading="lazy"
+				class="icon icon-card">
+			</div>
+			<div class="second-set animate__animated animate__pulse">
+				<img 
+				src="./assets/icons/icons8-bootstrap.svg" 
+				alt=""
+				loading="lazy"
+				class="icon icon-card">
+				<img 
+				src="./assets/icons/icons8-react-native.svg" 
+				alt=""
+				loading="lazy"
+				class="icon icon-card">
+				<img 
+				src="./assets/icons/icons8-git.svg" 
+				alt=""
+				loading="lazy"
+				class="icon icon-card">
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects section -->
+
+	<section class="projects" id="projects">
+		<h2 class="projects-title">Some of my Recent projects</h2>
+		<div class="projects-container">
+			<div class="project-container project-card">
+				<img 
+				src="./assets/images/expenseTracker.png" 
+				alt="expense-tracker"
+				loading="lazy"
+				class="project-pic">
+				<h3 class="projects-title">Expense Tracker</h3>
+				<p class="project-details">Sint duis voluptate anim cillum ut esse quis dolore. Id qui consectetur minim sint consectetur veniam dolore ad aliquip.</p>
+				<a href="#" target="_blank" class="project-link">Check this out!</a>
+			</div>		
+			<div class="project-container project-card">
+				<img 
+				src="./assets/images/netflixClone.png" 
+				alt="expense-tracker"
+				loading="lazy"
+				class="project-pic">
+				<h3 class="projects-title">Expense Tracker</h3>
+				<p class="project-details">Sint duis voluptate anim cillum ut esse quis dolore. Id qui consectetur minim sint consectetur veniam dolore ad aliquip.</p>
+				<a href="#" target="_blank" class="project-link">Check this out!</a>
+			</div>
+			<div class="project-container project-card">
+				<img 
+				src="./assets/images/greenyEarth.png" 
+				alt="expense-tracker"
+				loading="lazy"
+				class="project-pic">
+				<h3 class="projects-title">Expense Tracker</h3>
+				<p class="project-details">Sint duis voluptate anim cillum ut esse quis dolore. Id qui consectetur minim sint consectetur veniam dolore ad aliquip.</p>
+				<a href="#" target="_blank" class="project-link">Check this out!</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact section -->
+
+	<section class="contact" id="contact">
+		<h2>Get In Touch With Me</h2>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form action="https://formspree.io/f/xyylngw" method="POST">
+					<div class="form-control">
+						<label for="name">Name</label>
+						<input 
+						type="text"
+						name="sender-name"
+						id="name"
+						placeholder="Enter Your Name"
+						class="input-field"
+						required>
+					</div>
+					<div class="form-control">
+						<label for="email">Email</label>
+						<input 
+						type="email" 
+						name="sender-email" 
+						id="email"
+						placeholder="Enter Your Email"
+						class="input-field"
+						required>
+					</div>
+					<div class="form-control">
+						<label for="message">Message</label>
+						<textarea
+						id="message"
+						cols="60"
+						rows="10"
+						placeholder="Enter Your Messages"
+						name="message"
+						class="input-field"
+						required
+						></textarea>
+					</div>
+					<input 
+					type="submit" 
+					value="Submit"
+					id="submit-btn"
+					class="submit-btn">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- Social accounts - fixed to the right -->
+	<div class="socials">
+		<a href="#" target="_blank">
+			<img 
+			src="./assets/icons/icons8-twitter-circled.gif" 
+			alt="Twitter"
+			loading="lazy"
+			class="socicon">
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="./assets/icons/icons8-instagram.gif" 
+			alt="Instagram"
+			loading="lazy"
+			class="socicon">
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="./assets/icons/icons8-linkedin-circled.gif" 
+			alt="Linkedin"
+			loading="lazy"
+			class="socicon">
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="./assets/icons/icons8-github.gif" 
+			alt="Github"
+			class="socicon">
+		</a>
+	</div>
+	<!-- scroll to the top -->
+	<i class="scroll-up" id="scroll-up">
+		<img 
+		src="./assets/icons/icons8-upward-arrow.gif"
+		class="socicon up-arrow" 
+		alt="scroll-up">
+	</i>
+	<!-- Footer section -->
+	<footer>
+		<p class="copy">&copy; Copyright 2023</p>
+		<p class="copy">
+			Build with &#x2661; by
+			<a href="#" target="_blank">Richard Slot</a>
+		</p>
+	</footer>
+
+	<!-- Website script -->
+	<script type="text/javascript" src="assets/js/app.js"></script>
+
+	<!-- Ion icons scripts -->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
